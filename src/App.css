@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.displayFlex {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 40px;
+  margin: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-.App-link {
-  color: #61dafb;
+.lineComp {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+
+}
+.button{
+  width: 100px;
+  height: 30px;
+}
+/* table
+ */
+
+ .employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.employee-table th,
+.employee-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.employee-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
 }
